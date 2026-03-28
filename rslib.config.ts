@@ -8,7 +8,7 @@ const pkgJson = JSON.parse(
 
 export default defineConfig({
   lib: [
-    { format: 'esm', syntax: 'es2021', dts: true },
+    { syntax: 'es2021', dts: true },
     { format: 'cjs', syntax: 'es2021' },
   ],
   source: {
