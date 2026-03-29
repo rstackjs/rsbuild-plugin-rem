@@ -41,9 +41,9 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@playwright/test": "^1.58.2",
-    "@rsbuild/core": "^1.7.3",
+    "@rsbuild/core": "^1.7.4",
     "@rsbuild/plugin-react": "^1.4.6",
-    "@rslib/core": "^0.20.0",
+    "@rslib/core": "^0.20.1",
     "@types/node": "^24.12.0",
     "@types/postcss-pxtorem": "^6.1.0",
     "nano-staged": "^0.9.0",
@@ -63,7 +63,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@10.32.1",
+  "packageManager": "pnpm@10.33.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
