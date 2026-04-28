@@ -20,36 +20,31 @@
   "scripts": {
     "build": "rslib",
     "dev": "rslib -w",
-    "lint": "biome check .",
-    "lint:write": "biome check . --write",
-    "prepare": "simple-git-hooks && npm run build",
+    "lint": "rslint && prettier -c .",
+    "lint:write": "rslint --fix && prettier -w .",
+    "prepare": "simple-git-hooks && pnpm run build",
     "test": "playwright test",
-    "bump": "npx bumpp"
+    "bump": "pnpx bumpp"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx nano-staged"
-  },
-  "nano-staged": {
-    "*.{js,jsx,ts,tsx,mjs,cjs}": [
-      "biome check --write --no-errors-on-unmatched"
-    ]
+    "pre-commit": "pnpm run lint:write"
   },
   "dependencies": {
     "deepmerge": "^4.3.1",
     "terser": "^5.46.2"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
     "@playwright/test": "^1.59.1",
     "@rsbuild/core": "^1.7.5",
     "@rsbuild/plugin-react": "^1.4.6",
     "@rslib/core": "^0.21.3",
+    "@rslint/core": "^0.5.0",
     "@types/node": "^24.12.2",
     "@types/postcss-pxtorem": "^6.1.0",
-    "nano-staged": "^1.0.2",
     "playwright": "^1.59.1",
     "postcss": "^8.5.12",
     "postcss-pxtorem": "^6.1.0",
+    "prettier": "^3.8.3",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "simple-git-hooks": "^2.13.1",

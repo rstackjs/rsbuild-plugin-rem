@@ -26,7 +26,7 @@ npm add @rsbuild/plugin-rem -D
 
 ```ts
 // rsbuild.config.ts
-import { pluginRem } from "@rsbuild/plugin-rem";
+import { pluginRem } from '@rsbuild/plugin-rem';
 
 export default {
   plugins: [pluginRem()],
@@ -44,14 +44,14 @@ const defaultOptions = {
   screenWidth: 375,
   rootFontSize: 50,
   maxRootFontSize: 64,
-  widthQueryKey: "",
+  widthQueryKey: '',
   excludeEntries: [],
   supportLandscape: false,
   useRootFontSizeBeyondMax: false,
   pxtorem: {
     rootValue: 50,
     unitPrecision: 5,
-    propList: ["*"],
+    propList: ['*'],
   },
 };
 ```
@@ -113,18 +113,18 @@ UI 设计图宽度。
 
 ```ts
 // rsbuild.config.ts
-import { pluginRem } from "@rsbuild/plugin-rem";
+import { pluginRem } from '@rsbuild/plugin-rem';
 
 export default {
   source: {
     entry: {
-      page1: "./src/page1/index.tsx",
-      page2: "./src/page2/index.tsx",
+      page1: './src/page1/index.tsx',
+      page2: './src/page2/index.tsx',
     },
   },
   plugins: [
     pluginRem({
-      excludeEntries: ["page2"],
+      excludeEntries: ['page2'],
     }),
   ],
 };
@@ -157,7 +157,7 @@ export default {
 ```js
 pluginRem({
   pxtorem: {
-    propList: ["font-size"],
+    propList: ['font-size'],
   },
 });
 ```
@@ -191,7 +191,7 @@ Rsbuild 默认会对所有 CSS 属性进行转换，如果希望仅对 font-size
 ```ts
 pluginRem({
   pxtorem: {
-    propList: ["font-size"],
+    propList: ['font-size'],
   },
 });
 ```
@@ -203,7 +203,7 @@ pluginRem({
 ```ts
 pluginRem({
   pxtorem: {
-    propList: ["*", "!border-width"], // 不转换 border-width 属性
+    propList: ['*', '!border-width'], // 不转换 border-width 属性
   },
 });
 ```
@@ -270,7 +270,7 @@ pluginRem({
 ```ts
 export default {
   html: {
-    template: "./static/index.html",
+    template: './static/index.html',
   },
   plugins: [
     pluginRem({
