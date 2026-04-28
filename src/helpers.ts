@@ -47,7 +47,9 @@ export const DEFAULT_OPTIONS: Required<AutoSetRootFontSizeOptions> = {
   useRootFontSizeBeyondMax: false,
 };
 
-export const genJSTemplate = (opts: Required<AutoSetRootFontSizeOptions>) => `function setRootPixel() {
+export const genJSTemplate = (
+  opts: Required<AutoSetRootFontSizeOptions>,
+) => `function setRootPixel() {
   function getQuery(name) {
     return (new RegExp('[?&]' + name + '=([^&#\\b]+)').exec(location.search || '') || [])[1];
   }
