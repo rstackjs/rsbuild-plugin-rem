@@ -36,7 +36,7 @@
     "@rsbuild/core": "^2.0.9",
     "@rsbuild/plugin-react": "^2.0.1",
     "@rslib/core": "^0.22.0",
-    "@rslint/core": "^0.5.3",
+    "@rslint/core": "^0.6.1",
     "@types/node": "^24.12.4",
     "@types/postcss-pxtorem": "^6.1.0",
     "playwright": "^1.60.0",
