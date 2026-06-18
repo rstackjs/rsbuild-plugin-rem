@@ -2,6 +2,10 @@
   "name": "@rsbuild/plugin-rem",
   "version": "1.0.6",
   "repository": "https://github.com/rstackjs/rsbuild-plugin-rem",
+  "homepage": "https://github.com/rstackjs/rsbuild-plugin-rem#readme",
+  "bugs": {
+    "url": "https://github.com/rstackjs/rsbuild-plugin-rem/issues"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
