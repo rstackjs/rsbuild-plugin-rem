@@ -25,7 +25,7 @@
     "lint": "rslint && prettier -c .",
     "lint:write": "rslint --fix && prettier -w .",
     "prepare": "simple-git-hooks",
-    "test": "playwright test",
+    "test": "rstest",
     "bump": "pnpx bumpp"
   },
   "simple-git-hooks": {
@@ -36,11 +36,12 @@
     "terser": "^5.48.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.61.1",
     "@rsbuild/core": "^2.1.2",
     "@rsbuild/plugin-react": "^2.1.0",
     "@rslib/core": "^0.23.1",
     "@rslint/core": "^0.6.4",
+    "@rstest/core": "^0.11.1",
+    "@rstest/playwright": "^0.11.1",
     "@types/node": "^24.13.2",
     "@types/postcss-pxtorem": "^6.1.0",
     "playwright": "^1.61.1",
