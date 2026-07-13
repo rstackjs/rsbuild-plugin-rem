@@ -5,7 +5,7 @@ import { expect, test } from '@rstest/playwright';
 import { createRsbuild } from '@rsbuild/core';
 import { pluginReact } from '@rsbuild/plugin-react';
 import { pluginRem } from '../../dist';
-import { getRandomPort } from '../helper';
+import { getRandomPort } from '@rstackjs/test-utils';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
