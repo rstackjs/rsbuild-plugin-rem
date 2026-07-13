@@ -15,7 +15,7 @@ test('should convert rem unit correctly', async ({ page }) => {
     rsbuildConfig: {
       plugins: [pluginRem(), pluginReact()],
       server: {
-        port: getRandomPort(),
+        port: await getRandomPort(),
       },
     },
   });
@@ -100,7 +100,7 @@ test('should apply crossorigin to rem runtime script', async ({ page }) => {
         pluginReact(),
       ],
       server: {
-        port: getRandomPort(),
+        port: await getRandomPort(),
       },
       html: {
         crossorigin: 'use-credentials',
@@ -141,7 +141,7 @@ test('should apply html.scriptLoading to rem runtime script', async ({
         pluginReact(),
       ],
       server: {
-        port: getRandomPort(),
+        port: await getRandomPort(),
       },
       html: {
         scriptLoading: 'module',
