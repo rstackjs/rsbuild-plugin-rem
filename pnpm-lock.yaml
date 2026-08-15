@@ -47,10 +47,10 @@ importers:
         version: 1.61.1
       postcss:
         specifier: ^8.5.19
-        version: 8.5.19
+        version: 8.5.23
       postcss-pxtorem:
         specifier: ^6.1.0
-        version: 6.1.0(postcss@8.5.19)
+        version: 6.1.0(postcss@8.5.23)
       prettier:
         specifier: ^3.9.5
         version: 3.9.5
@@ -525,8 +525,8 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  nanoid@3.3.12:
-    resolution: {integrity: sha512-ZB9RH/39qpq5Vu6Y+NmUaFhQR6pp+M2Xt76XBnEwDaGcVAqhlvxrl3B2bKS5D3NH3QR76v3aSrKaF/Kiy7lEtQ==}
+  nanoid@3.3.18:
+    resolution: {integrity: sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
@@ -552,8 +552,8 @@ packages:
     peerDependencies:
       postcss: ^8.0.0
 
-  postcss@8.5.19:
-    resolution: {integrity: sha512-Mz8SaolMd8nB+G13WkORcxQKHZ/NE4xXevtkJHVuG+guo9/wYKlIMTKAqGdEmYOXR2ijPjTYNHssizdaVSUNdQ==}
+  postcss@8.5.23:
+    resolution: {integrity: sha512-g50586zr4bZmwFiTlflMu8E0bDTb5I5gertgwAKmsdUlTQIhZtunzUlD1WSzwcVWPoAVpsrA6vlfCD7oXvRwgg==}
     engines: {node: ^10 || ^12 || >=14}
 
   prettier@3.9.5:
@@ -878,7 +878,7 @@ snapshots:
 
   '@types/postcss-pxtorem@6.1.0':
     dependencies:
-      postcss: 8.5.19
+      postcss: 8.5.23
 
   '@typescript/typescript-aix-ppc64@7.0.2':
     optional: true
@@ -953,7 +953,7 @@ snapshots:
   fsevents@2.3.2:
     optional: true
 
-  nanoid@3.3.12: {}
+  nanoid@3.3.18: {}
 
   picocolors@1.1.1: {}
 
@@ -967,13 +967,13 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.2
 
-  postcss-pxtorem@6.1.0(postcss@8.5.19):
+  postcss-pxtorem@6.1.0(postcss@8.5.23):
     dependencies:
-      postcss: 8.5.19
+      postcss: 8.5.23
 
-  postcss@8.5.19:
+  postcss@8.5.23:
     dependencies:
-      nanoid: 3.3.12
+      nanoid: 3.3.18
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
