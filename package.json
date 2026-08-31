@@ -33,25 +33,25 @@
   },
   "dependencies": {
     "deepmerge": "^4.3.1",
-    "terser": "^5.49.0"
+    "terser": "^5.51.2"
   },
   "devDependencies": {
-    "@rsbuild/core": "^2.1.5",
+    "@rsbuild/core": "^2.2.1",
     "@rsbuild/plugin-react": "^2.1.0",
     "@rslib/core": "^0.23.2",
-    "@rslint/core": "^0.8.1",
+    "@rslint/core": "^0.9.0",
     "@rstackjs/test-utils": "^0.2.0",
-    "@rstest/core": "^0.11.1",
-    "@rstest/playwright": "^0.11.1",
+    "@rstest/core": "^0.11.11",
+    "@rstest/playwright": "^0.11.11",
     "@types/node": "^24.13.3",
     "@types/postcss-pxtorem": "^6.1.0",
-    "playwright": "^1.61.1",
-    "postcss": "^8.5.19",
+    "playwright": "^1.62.1",
+    "postcss": "^8.5.26",
     "postcss-pxtorem": "^6.1.0",
-    "prettier": "^3.9.5",
-    "react": "^19.2.7",
-    "react-dom": "^19.2.7",
-    "simple-git-hooks": "^2.13.1",
+    "prettier": "^3.9.6",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "simple-git-hooks": "^2.14.0",
     "typescript": "7.0.2"
   },
   "peerDependencies": {
@@ -62,7 +62,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@11.13.0",
+  "packageManager": "pnpm@11.24.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
