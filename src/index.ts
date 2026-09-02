@@ -8,8 +8,8 @@ import {
 } from '@rsbuild/core';
 import deepmerge from 'deepmerge';
 import pxToRemPlugin from 'postcss-pxtorem';
-import { DEFAULT_OPTIONS, getRootPixelCode } from './helpers.js';
-import type { PluginRemOptions } from './types.js';
+import { DEFAULT_OPTIONS, getRootPixelCode } from './helpers.ts';
+import type { PluginRemOptions } from './types.ts';
 
 export type { PluginRemOptions };
 

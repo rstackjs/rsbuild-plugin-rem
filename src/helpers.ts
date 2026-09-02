@@ -1,4 +1,4 @@
-import type { PluginRemOptions } from './types.js';
+import type { PluginRemOptions } from './types.ts';
 
 type AutoSetRootFontSizeOptions = Omit<PluginRemOptions, 'pxtorem'> & {
   /** expose root font size to global */
