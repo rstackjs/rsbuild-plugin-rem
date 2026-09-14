@@ -34,18 +34,18 @@
     "terser": "^5.51.2"
   },
   "devDependencies": {
-    "@rsbuild/core": "^2.2.2",
+    "@rsbuild/core": "^2.2.6",
     "@rsbuild/plugin-react": "^2.1.0",
     "@rstackjs/test-utils": "^0.2.0",
-    "@rstest/playwright": "^0.11.11",
-    "@types/node": "^24.13.3",
+    "@rstest/playwright": "^0.11.12",
+    "@types/node": "^24.13.4",
     "@types/postcss-pxtorem": "^6.1.0",
-    "playwright": "^1.62.1",
-    "postcss": "^8.5.26",
+    "playwright": "^1.63.0",
+    "postcss": "^8.5.28",
     "postcss-pxtorem": "^6.1.0",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
-    "rstack": "^0.7.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "rstack": "^0.7.4",
     "typescript": "7.0.2"
   },
   "peerDependencies": {
@@ -56,7 +56,7 @@
       "optional": true
     }
   },
-  "packageManager": "pnpm@11.24.0",
+  "packageManager": "pnpm@11.27.0",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
